@@ -3,9 +3,9 @@ from distutils.core import setup, Extension
 module1 = Extension('pyfastbti',
                     define_macros = [('MAJOR_VERSION', '1'),
                                      ('MINOR_VERSION', '0')],
-                    include_dirs = ['C:/Python36-64/include'],
+                    include_dirs = [],
                     libraries = [],
-                    library_dirs = ['C:/Python36-64/libs'],
+                    library_dirs = [],
                     sources = ['pyfastbti.c'])
 
 setup (name = 'Python Fast BTI',
