@@ -8,7 +8,7 @@ module1 = Extension('pyfastbti',
                     library_dirs = [],
                     sources = ['pyfastbti.c'])
 
-setup (name = 'Python Fast BTI',
+setup (name = 'PyFastBTI',
        version = '1.0',
        description = 'Functions for encoding/decoding BTI files written in C.',
        author = 'LagoLunatic',
