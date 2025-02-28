@@ -1,12 +1,18 @@
 from distutils.core import setup, Extension
 
+extra_compile_args = []
+extra_compile_args.append('-Werror=incompatible-pointer-types')
+if False:
+    extra_compile_args.append('-Werror')
+
 module1 = Extension('pyfastbti',
                     define_macros = [('MAJOR_VERSION', '1'),
                                      ('MINOR_VERSION', '0')],
                     include_dirs = [],
                     libraries = [],
                     library_dirs = [],
-                    sources = ['pyfastbti.c'])
+                    sources = ['pyfastbti.c'],
+                    extra_compile_args = extra_compile_args)
 
 setup (name = 'PyFastBTI',
        version = '1.0',

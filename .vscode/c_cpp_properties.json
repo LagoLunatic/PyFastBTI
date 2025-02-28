@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Windows",
+            "includePath": [
+                "C:/Python312/include",
+            ],
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/include/python3.12",
+            ],
+        },
+    ],
+    "version": 4,
+    "enableConfigurationSquiggles": false,
+}
